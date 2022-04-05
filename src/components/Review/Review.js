@@ -11,7 +11,7 @@ const Review = (props) => {
                     <div className='flex items-center justify-center'>
                         <img className='h-12 w-12 rounded-full' src={img} alt="" />
 
-                        <h2 className='ml-3'>{name}</h2>
+                        <h2 className='ml-3 text-lg font-semibold'>{name}</h2>
                     </div>
                     <div>
                         <p className='mr-3'><small>Ratings: {rating}</small></p>
