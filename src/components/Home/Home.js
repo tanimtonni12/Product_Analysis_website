@@ -1,6 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import img from '../../images/macstudio.1b355172.png'
+import useReviews from '../Hooks/useReviews';
+import Review from '../Review/Review';
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
+    const sliceReviews = reviews.slice(0, 3);
     return (
         <div>
             <div className='flex justify-between items-center ml-48 mr-48 mt-10'>
@@ -17,7 +22,18 @@ const Home = () => {
             </div>
 
             <div>
-                <h2 className='text-4xl mt-44'>Customer Review</h2>
+                <h2 className='text-4xl mt-44 mb-10'>Customer Review</h2>
+                <div className='grid grid-cols-3'>
+                    {
+                        sliceReviews.map(review => <Review key={review.id}
+                            review={review}></Review>)
+                    }
+
+                </div>
+                <div className='my-10'>
+                    <Link to='/reviews'><button className=''>View All Reviews</button></Link>
+                </div>
+
             </div>
         </div>
     );
