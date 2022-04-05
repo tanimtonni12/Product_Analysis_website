@@ -6,13 +6,15 @@ const Review = (props) => {
     return (
         <div className='ml-20 mr-20 mb-20'>
 
-            <div className='p-4 rounded-md bg-black text-white'>
+            <div className='p-5 rounded-md bg-black text-white'>
                 <div className='flex items-center justify-between'>
-                    <img className='h-12 w-12 rounded-full' src={img} alt="" />
+                    <div className='flex items-center justify-center'>
+                        <img className='h-12 w-12 rounded-full' src={img} alt="" />
 
-                    <h2 className='ml-3'>{name}</h2>
+                        <h2 className='ml-3'>{name}</h2>
+                    </div>
                     <div>
-                        <p>Ratings: {rating}</p>
+                        <p className='mr-3'><small>Ratings: {rating}</small></p>
                     </div>
 
                 </div>

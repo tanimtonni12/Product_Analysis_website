@@ -2,33 +2,33 @@
   {
     "id": "1",
     "name": "Mysha Promee",
-    "comment": "The best mini mac book I've ever seen in my life. Definitely gonna buy this soon.",
-    "rating": "5",
+    "comment": "The best mini mac book I've ever seen in my life. Definitely buy it soon.",
+    "rating": "5 stars",
     "img": "https://www.kindpng.com/picc/m/256-2561999_hd-read-more-girl-smile-png-transparent-png.png"
   },
   {
     "id": "2",
     "name": "Anisur Rahman",
     "comment": "If you are a real productivity hunter go for this. You will never regret.",
-    "rating": "4",
+    "rating": "4 stars",
     "img": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
   },
   {
     "id": "3",
     "name": "Tanim Tonni",
     "comment": "Amount of performance it provides in the small box is unbelievable.",
-    "rating": "4",
+    "rating": "4 stars",
     "img": "https://www.pngitem.com/pimgs/m/478-4787743_student-png-woman-smiling-no-background-transparent-png.png"
   },
   {
     "id": "4",
     "name": "Suraiya Islam",
     "comment": "This tiny thing made my life a lot easier. Now I don't have to wait hours to finish my project.",
-    "rating": "4",
+    "rating": "4 stars",
     "img": "https://www.nicepng.com/png/detail/256-2566287_free-png-female-student-png-images-transparent-smiling.png"
   },
   {
-    "id": "5",
+    "id": "5 stars",
     "name": "Jhon Mith",
     "comment": "the service of this mac book is awesome.Feeling good to buy this.",
     "rating": "5",
@@ -37,7 +37,7 @@
   {
     "id": "6",
     "name": "Black smith",
-    "rating": "5",
+    "rating": "5 stars",
     "comment": "So amazing and highly configured laptop it is.",
     "img": "https://www.opticalexpress.co.uk/media/1064/man-with-glasses-smiling-looking-into-distance.jpg"
   }

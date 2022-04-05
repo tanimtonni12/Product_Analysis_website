@@ -4,7 +4,7 @@ import img from '../../images/macstudio.1b355172.png'
 import useReviews from '../Hooks/useReviews';
 import Review from '../Review/Review';
 const Home = () => {
-    const [reviews, setReviews] = useReviews();
+    const [reviews] = useReviews();
     const sliceReviews = reviews.slice(0, 3);
     return (
         <div>
@@ -22,7 +22,7 @@ const Home = () => {
             </div>
 
             <div>
-                <h2 className='text-4xl mt-44 mb-10'>Customer Review</h2>
+                <h2 className='text-4xl mt-44 font-bold mb-10 text-red-800'>Customer Reviews ({sliceReviews.length})</h2>
                 <div className='grid grid-cols-3'>
                     {
                         sliceReviews.map(review => <Review key={review.id}
@@ -30,8 +30,8 @@ const Home = () => {
                     }
 
                 </div>
-                <div className='my-10'>
-                    <Link to='/reviews'><button className=''>View All Reviews</button></Link>
+                <div className='mb-10'>
+                    <Link to='/reviews'><button className='bg-red-800 text-white p-3 font-bold rounded-full'>View All Reviews</button></Link>
                 </div>
 
             </div>
