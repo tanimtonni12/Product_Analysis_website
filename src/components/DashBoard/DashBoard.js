@@ -43,7 +43,7 @@ const DashBoard = () => {
 
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 m-20'>
+        <div className='grid grid-cols-2 gap-4 m-20'>
             <div>
                 <h1 className='text-left text-2xl font-bold ml-10 mt-10 mb-10'>MONTH WISE SELL</h1>
 
